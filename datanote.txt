@@ -1,0 +1,61 @@
+
+-- 2012 flow
+testing
+	-- colored_0: 000xxx_10/11
+	-- colored_1: 100xxx_10/11
+	-- muliview-testing-image_2: 000xxx_12
+	-- muliview-testing-image_3: 100xxx_12
+	------------------------------------
+	Test
+		-- input: (0/1)00xxx_10/11
+		-- output-12: (0/1)00xxx_12
+		-- output-flow: /
+
+training
+	-- colored_0: 000xxx_10/11
+	-- colored_1: 100xxx_10/11
+	-- muliview-training-image_2: 000xxx_12
+	-- muliview-training-image_3: 100xxx_12
+	-- flow_occ
+	------------------------------------
+	Train
+		-- a
+			-- input: 000xxx_10/11
+			-- output-12: 000xxx_12
+			-- output-flow: flow_occ: 000xxx_10
+		-- b
+			-- input: 100xxx_10/11
+			-- output-12: 100xxx_12
+			-- output-flow: /
+			
+
+-- 2015 flow
+testing
+	-- image_2: 200xxx_10/11
+	-- image_3: 300xxx_10/11
+	-- muliview-testing-image_2: 200xxx_12
+	-- muliview-testing-image_3: 300xxx_12
+	------------------------------------
+	Test
+		-- input: (2/3)00xxx_10/11
+		-- output-12: (2/3)00xxx_12
+		-- output-flow: /
+
+training
+	-- image_2: 200xxx_10/11
+	-- image_3: 300xxx_10/11
+	-- muliview-training-image_2: 200xxx_12
+	-- muliview-training-image_3: 300xxx_12
+	-- flow_occ
+	------------------------------------
+	Train
+		-- a
+			-- input: 200xxx_10/11
+			-- output-12: 200xxx_12
+			-- output-flow: flow_occ: 200xxx_10
+		-- b
+			-- input: 300xxx_10/11
+			-- output-12: 300xxx_12
+			-- output-flow: /
+
+
