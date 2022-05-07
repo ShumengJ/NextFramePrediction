@@ -10,6 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
 
+from vizflow import flow_to_image
 
 def predict_img(net, img):
     # set the mode of your network to evaluation
