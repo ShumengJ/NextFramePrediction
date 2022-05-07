@@ -1,6 +1,6 @@
 # NextFramePrediction
 Course Project for ECE-6123 2022Spring \
-Team 15
+Team 15: Shumeng Jia, Yuhan Shang, Yuanzi Liu
 
 ## About Project
 Convolutional neural networks (CNNs) have been widely used in optical flow estimation problems to solve computer vision tasks. Given two frames, the CNNs can be trained to generate the motion directions of each pixel in terms of the optical flow, which can be utilized in predicting the next frame in the video. In this report, we present a hybrid CNN-based structure for both optical flow estimation and next frame prediction, which was firstly proposed by Sedaghat et al [1] in 2017. This multi-tasking structure intelligently trains the networks on different tasks: optical flow estimation and next frame prediction. The output results are affected by the learning outcomes of both sides. We train the networks with real-world video frames and optical flows from the KITTI benchmark [2], hoping to improve their performance in solving real-life problems. With the availability of ground-truth datasets, the networks are trained with supervised learning.
