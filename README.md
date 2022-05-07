@@ -11,7 +11,7 @@ Convolutional neural networks (CNNs) have been widely used in optical flow estim
 
 ## About the model
 A Hybrid learning model implement based on [this work](https://arxiv.org/abs/1612.03777)
-![image](https://www.researchgate.net/profile/Nima-Sedaghat/publication/316714926/figure/fig2/AS:491193416065024@1494121044234/We-improve-CNN-based-optical-flow-estimation-in-real-videos-by-adding-the-extra.png)
+![image](https://www.researchgate.net/profile/Nima-Sedaghat/publication/316714926/figure/fig2/AS:491193416065024@1494121044234/We-improve-CNN-based-optical-flow-estimation-in-real-videos-by-adding-the-extra.png =100)
 
 ## File Descriptions
 ### CommentsResults.ipynb
@@ -32,7 +32,8 @@ Functions that help training and validating.
 Load the parameters and settings in this file to use our best model.
 
 ## Performance
+![image](https://raw.githubusercontent.com/ShumengJ/NextFramePrediction/main/result_a3.png)
 
 ## Reference
-[1] N. Sedaghat, ‘‘Hybrid Learning of Optical Flow and Next Frame Prediction to Boost Optical Flow in the Wild,’’ 2016, arXiv:1612.03777. Accessed: Apr. 7, 2017. [Online]. Available: https://arxiv.org/abs/1612. 03777
+[1] N. Sedaghat, ‘‘Hybrid Learning of Optical Flow and Next Frame Prediction to Boost Optical Flow in the Wild,’’ 2016, arXiv:1612.03777. Accessed: Apr. 7, 2017. [Online]. Available: https://arxiv.org/abs/1612. 03777 \
 [2] KITTI, [online].Available:http://www.cvlibs.net/datasets/kitti
