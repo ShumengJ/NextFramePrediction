@@ -11,9 +11,6 @@ Convolutional neural networks (CNNs) have been widely used in optical flow estim
 
 ## About the model
 A Hybrid learning model implemented based on [this work](https://arxiv.org/abs/1612.03777)
-<br>
-<br>
-
 
 ## File Descriptions
 ### CommentsResults.ipynb
