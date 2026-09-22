@@ -1,4 +1,5 @@
 # NextFramePrediction
+Hybrid deep learning for optical flow estimation and next-frame prediction on the KITTI dataset.
 Course Project for ECE-6123 2022Spring \
 Team 15: Shumeng Jia, Yuhan Shang, Yuanzi Liu
 
